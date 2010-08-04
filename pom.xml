@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.saumya.webfortune</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>webfortune GWT modules</name>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.3</version>
   <url>http://github.com/mkristian/webfortune</url>
   <scm>
     <connection>scm:git:git://github.com/mkristian/webfortune.git</connection>
@@ -73,14 +73,15 @@
     </resources>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
+	<version>2.0</version>
         <configuration>
 	  <goals>deploy</goals>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-source-plugin</artifactId>
+	<version>2.1.2</version>
 	<executions>
 	  <execution>   
 	    <goals>
@@ -90,8 +91,8 @@
 	</executions>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+	<version>2.3.1</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
@@ -117,6 +118,15 @@
         <version>7.0.1.v20091125</version>  
       </plugin>
     </plugins>
+    <pluginManagement>
+      <plugins>
+	<plugin>
+	  <groupId>org.codehaus.mojo</groupId>
+	  <artifactId>exec-maven-plugin</artifactId>
+	  <version>1.2</version>
+	</plugin>
+      </plugins>
+    </pluginManagement>
   </build> 
   <modules>
     <module>webfortune</module>
