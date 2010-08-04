@@ -1,0 +1,7 @@
+<module>
+  
+  <inherits name='de.saumya.webfortune.Dhammapada'/>
+  
+  <entry-point class='de.saumya.webfortune.client.Webfortune'/>
+
+</module>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>de.saumya.webfortune</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.3-SNAPSHOT</version>
+  </parent>
+  <artifactId>dhammapada</artifactId>
+  <version>0.3-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>dhammapada GWT module</name>
+  <licenses>
+    <license>
+      <name>public domain</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>de.saumya.webfortune</groupId>
+      <artifactId>webfortune</artifactId>
+      <version>0.3-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+	<configuration>
+	  <runTarget>de.saumya.dhammapada.DhammapadaTest/DhammapadaTest.html</runTarget>
+	</configuration>
+      </plugin>
+    </plugins>
+  </build> 
+</project>

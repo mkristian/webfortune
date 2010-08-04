@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>de.saumya.webfortune</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.3-SNAPSHOT</version>
+  </parent>
+  <artifactId>webfortune</artifactId>
+  <packaging>jar</packaging>
+  <name>webfortune GWT module</name>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>de.saumya.webfortune.main.Splitter</mainClass>
+          <arguments>
+            <!--argument></argument-->
+          </arguments>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build> 
+</project>

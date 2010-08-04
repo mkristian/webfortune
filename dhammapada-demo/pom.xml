@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>de.saumya.webfortune</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.3-SNAPSHOT</version>
+  </parent>
+  <artifactId>dhammapada-demo</artifactId>
+  <version>0.3-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>dhammapada GWT demo application</name>
+  <dependencies>
+    <dependency>
+      <groupId>de.saumya.webfortune</groupId>
+      <artifactId>dhammapada</artifactId>
+      <version>0.3-SNAPSHOT</version>
+    </dependency>
+<!--
+    <dependency>
+      <groupId>de.saumya.webfortune</groupId>
+      <artifactId>webfortune</artifactId>
+      <version>0.3-SNAPSHOT</version>
+      <classifier>sources</classifier>
+    </dependency>
+    <dependency>
+      <groupId>de.saumya.webfortune</groupId>
+      <artifactId>dhammapada</artifactId>
+      <version>0.3-SNAPSHOT</version>
+      <classifier>sources</classifier>
+    </dependency>
+-->
+  </dependencies>
+</project>
