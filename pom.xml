@@ -58,6 +58,13 @@
     <gwt.version>1.7.1</gwt.version>
   </properties>
   <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ssh-external</artifactId>
+        <version>1.0-beta-6</version>
+      </extension>
+    </extensions>
     <outputDirectory>war/WEB-INF/classes</outputDirectory>
     <resources>
       <resource>
