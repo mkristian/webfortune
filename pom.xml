@@ -5,7 +5,7 @@
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>webfortune GWT modules</name>
-  <version>0.3</version>
+  <version>0.4-SNAPSHOT</version>
   <url>http://github.com/mkristian/webfortune</url>
   <scm>
     <connection>scm:git:git://github.com/mkristian/webfortune.git</connection>

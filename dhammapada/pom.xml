@@ -4,10 +4,10 @@
   <parent>
     <groupId>de.saumya.webfortune</groupId>
     <artifactId>parent</artifactId>
-    <version>0.3</version>
+    <version>0.4-SNAPSHOT</version>
   </parent>
   <artifactId>dhammapada</artifactId>
-  <version>0.3</version>
+  <version>0.4-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>dhammapada GWT module</name>
   <licenses>
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>de.saumya.webfortune</groupId>
       <artifactId>webfortune</artifactId>
-      <version>0.3</version>
+      <version>0.4-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
